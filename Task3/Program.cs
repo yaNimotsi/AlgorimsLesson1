@@ -68,11 +68,11 @@ namespace Task3
                 {
                     fibonachi[i] = fibonachi[i - 1]+ fibonachi[i - 2];
                 }
-            }
+                }
             
             return fibonachi[inputVal - 1];
-        }
-
+            }
+            
         static int RecursionMethod(int numIndex)
         {
             if (numIndex <= 1) return numIndex;
